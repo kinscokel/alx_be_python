@@ -1,9 +1,10 @@
-# Defined variables
-Length = 10 # length of the rectangle
-Width = 5 # width of the rectangle
+# variables
+length = 10
+width = 5
 
-# Calculate area
-Area = Length * Width
+
+# calculate area
+Area = length * width
 
 # print the result
 print("The area of rectangle is:", Area)
