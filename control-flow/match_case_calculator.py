@@ -1,16 +1,31 @@
-#  match_case_calculator.py
+   # Prompt user for input
+        num1 = float(input("Enter the first number: "))
+        num2 = float(input("Enter the second number: "))
+        operation = input("Choose the operation (+, -, *, /): ").strip()
 
-# prompt user for two numbers
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+        # Perform calculation using match-case (Python 3.10+)
+        match operation:
+            case '+':
+                result = num1 + num2
+                print(f"The result is {result}.")
+            case '-':
+                result = num1 - num2
+                print(f"The result is {result}.")
+            case '*':
+                result = num1 * num2
+                print(f"The result is {result}.")
+            case '/':
+                if num2 == 0:
+                    print("Cannot divide by zero.")
+                else:
+                    result = num1 / num2
+                    print(f"The result is {result}.")
+            case _:
+                print("Invalid operation selected. Please choose from +, -, *, /.")
 
-# prompt user for an operation
-operation = input("choose the operation (+): ")
+    except ValueError:
+        print("Invalid input. Please enter numeric values.")
 
-# perform calculation using match case
-match operation:
-    case '+':
-      result = num1 + num2    
-      
-      print(f"The result is {result}. ")
 
+
+    
