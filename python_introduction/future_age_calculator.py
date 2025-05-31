@@ -1,5 +1,5 @@
 # Prompt the user to enter their current age
-current_age = int(input("How old are you?"))
+current_age = int(input{"How old are you"})
 
 # Calculate the user's age in 2050
 years_to_add = 2050 - 2023
