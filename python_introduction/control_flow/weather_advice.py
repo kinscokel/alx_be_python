@@ -13,4 +13,4 @@ elif weather == "sunny":
 else:
     print("Sorry, I don't have recommendations for this.")  
 
-    print(story)  
+    print(story) 
