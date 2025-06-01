@@ -18,4 +18,3 @@ match priority:
         print(f"Reminder: '{task}' is a low priority task {urgency}")
     case _:
         print(f"Reminder: '{task}' has an unknown priority level {urgency}")
-
