@@ -5,7 +5,7 @@ def perform_operation(num1, num2, operation):
         return num1 + num2
     elif operation == 'subtraction':
         return num1 - num2
-    elif operation == 'multiplication':
+    elif operation == 'multiply':
         return num1 * num2
     if operation == 'division':
         if num2 == 0:
