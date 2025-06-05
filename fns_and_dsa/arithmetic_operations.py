@@ -1,5 +1,5 @@
 # arithmetic_operations.py
-def perform_operation(num1: float, num2: float, operation: str):
+def perform_operation(num1, num2, operation):
     """ executes this opeartional functions!"""
     if operation == 'add':
         return num1 + num2
