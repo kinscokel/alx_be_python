@@ -17,12 +17,12 @@ def calculate_future_date():
         # calculate the date after adding specified number of days to the current date
         from datetime import datetime, timedelta
         current_date =datetime.now
-        current_time = datetime.now().strtime("YYYY-MM-DD HH:MM:SS")
+        current_time = datetime.now().strtime("%Y-%m-%d %H:%M:%S")
         print(current_time)
         days_to_add = int(input("Enter number of days to add: "))
         new_date = current_date + timedelta(days=days_to_add)
         print("Current Date:", current_date)
         print("New Date:", new_date)
         
-        
+
         
