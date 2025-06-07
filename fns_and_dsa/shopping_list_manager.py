@@ -19,7 +19,7 @@ def main():
             else:
                 print("item can not be empty.")
         elif choice == '2':
-            item = input("Enter the item to be removed:")
+            item = input('Enter the item to be removed':)
             if item in shopping_list:
                 shopping_list.remove(item)
                 print("{item} has been removed from your shopping list. ")
